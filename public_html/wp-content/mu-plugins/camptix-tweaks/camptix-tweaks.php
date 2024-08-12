@@ -728,14 +728,21 @@ function get_donation_string() {
  * Get a string for HTML email footers to link to the WP swag store.
  *
  * @return string
+ * This function is no longer in use, swag store is currently not live 
  */
-function get_swag_store_string() {
+
+/**
+ function get_swag_store_string() {
 	return sprintf(
+*/
 	/* translators: %s is a placeholder for a URL. */
+/**
 		__( 'Wear your love of WordPress today with this exclusive <b>10%% WordCamp discount</b> at the <a href="%s">WordPress Swag Store</a>!', 'wordcamporg' ),
 		'https://mercantile.wordpress.org/?coupon-code=wordcamps2023&sc-page=shop&utm_source=receipt&utm_medium=email&utm_campaign=mercantile&utm_content=wordcamp_discount'
 	);
 }
+*/
+
 
 /**
  * Get a sponsorship region description.
